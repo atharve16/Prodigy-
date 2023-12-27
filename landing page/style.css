@@ -1,0 +1,53 @@
+*{
+    margin: 0%;
+}
+body{
+    background-color:rgba(78, 75, 75, 0.153);
+}
+header{
+    background-image:url(trial3.jpg);
+    background-position: center;
+    background-size: cover;
+    height:100vh;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.logo{
+    margin: 5%;
+    border-radius: 50%;
+}
+#search{
+    margin-left:8%;
+    margin-top: 10%;
+    width: 300px;
+    padding: 8px;
+    border: none;
+    border-radius: 20px;    
+}
+.head a{
+    margin-left: 15px;
+    color: aliceblue;
+}
+a:hover{
+    color: blue;
+}
+.layout{
+    display: flex;
+    height: 100vh;
+}
+aside{
+    flex: 40%;
+    background-color: rgb(115, 156, 192);
+}
+main{
+    display:flex;
+    margin-left: 50px;
+    padding: 50px;
+}
+.left, .right{
+    flex: 1;
+}
+main img{
+    height: 200px;
+    width: 200px;
+}
