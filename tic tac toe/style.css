@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+}
+
+.board button {
+    font-size: 1.5em;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.message {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.reset-btn {
+    margin-top: 20px;
+    font-size: 1em;
+    padding: 10px;
+    cursor: pointer;
+}
